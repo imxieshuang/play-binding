@@ -12,7 +12,7 @@ object ScalaJSExample {
 
   @dom
   def bindingButton(): Binding[Button] = {
-    <button class="ui orange button"
+    <button class="btn btn-danger"
             onclick={event: Event =>
               org.scalajs.dom.window.alert("hello world!")}>
       Modify the name
